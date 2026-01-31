@@ -13,8 +13,9 @@ document.getElementById("btn").onclick=function(){
             let rand=Math.floor(Math.random()*6)+1;
             result=result+" "+rand;
             const images=document.createElement("img");
-            images.src=`${rand}.PNG`;
+            images.src=`${rand}.png`;
             picture.appendChild(images); 
         }document.getElementById("res").textContent=` ${result}`;}
        
+
 }
